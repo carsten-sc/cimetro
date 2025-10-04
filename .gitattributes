@@ -1,0 +1,15 @@
+*text
+# Define text files to use LF line endings
+*.txt text eol=lf
+
+# Define JavaScript files to use LF line endings
+*.js text eol=lf
+
+# Define Markdown files to use LF line endings
+*.md text eol=lf
+
+# Set merge strategy for specific file types
+*.json merge=union
+
+# Specify that all files in the src directory should be treated as binary
+src/* binary

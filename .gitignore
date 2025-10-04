@@ -1,0 +1,22 @@
+/devsetup/
+
+# Rust build output
+/target/
+
+# Cargo package files
+**/*.rs.bk
+
+# IDEs and editors
+/.vscode/
+/.idea/
+/*.swp
+
+# Logs
+*.log
+
+# By-products
+*.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
