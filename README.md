@@ -2,7 +2,7 @@
 
 **Cimetro** is a modular, extensible city-building simulation written in Rust using the [Bevy](https://bevyengine.org/) game engine. It is designed for long-term scalability, data-driven architecture, and community modding support.
 
-It name stands for Carsten's simulation of a metropolis.
+It's name stands for Carsten's simulation of a metropolis.
 
 ## Vision
 
@@ -31,3 +31,14 @@ See [`docs/manifest.md`](docs/manifest.md) for a full breakdown of modules and a
 git clone https://github.com/yourusername/cimetro.git
 cd cimetro
 cargo run
+```
+
+Requires Rust 1.74+ and Bevy 0.17.2.
+
+## Contributing
+
+Cimetro is built in iterative sprints. See docs/sprints.md for current goals. Contributions are welcome — especially in simulation logic, UI, modding, and asset design.
+
+## License
+
+MIT — free to use, modify, and distribute.
