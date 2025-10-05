@@ -1,0 +1,14 @@
+// Plugin exports
+pub mod core;
+pub mod world;
+pub mod population;
+pub mod economy;
+pub mod buildings;
+pub mod infra;
+pub mod traffic;
+pub mod services;
+pub mod environment;
+pub mod governance;
+pub mod ui;
+pub mod persistence;
+pub mod modding;
