@@ -1,6 +1,7 @@
 // core module
 
 pub mod scheduler;
+pub mod events;
 pub mod event_bus;
 pub mod config;
 pub mod rng;
